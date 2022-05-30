@@ -1,0 +1,5 @@
+redis:
+  cluster:
+    nodes:
+      - host: localhost
+        port: 7000
