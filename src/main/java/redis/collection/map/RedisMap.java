@@ -1,4 +1,4 @@
-package redis.collection.utils.map;
+package redis.collection.map;
 
 import redis.clients.jedis.ConnectionPool;
 import redis.clients.jedis.JedisCluster;
@@ -14,7 +14,7 @@ import static java.lang.String.valueOf;
 
 public class RedisMap implements Map<String, Integer> {
 
-    public static final AtomicInteger count = new AtomicInteger(0);
+    private static final AtomicInteger count = new AtomicInteger(0);
     private final JedisCluster cluster;
     private String mapKey;
 

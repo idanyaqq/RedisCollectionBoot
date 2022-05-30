@@ -2,7 +2,7 @@ package redis.collection.utils;
 
 import lombok.RequiredArgsConstructor;
 import redis.collection.exception.NoSuchRedisMapException;
-import redis.collection.utils.map.RedisMap;
+import redis.collection.map.RedisMap;
 
 import java.util.HashMap;
 import java.util.Map;

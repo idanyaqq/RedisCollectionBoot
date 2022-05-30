@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import redis.collection.service.RedisMapService;
 import redis.collection.utils.JedisMapManager;
-import redis.collection.utils.map.RedisMap;
+import redis.collection.map.RedisMap;
 
 import java.util.Collection;
 import java.util.Set;
